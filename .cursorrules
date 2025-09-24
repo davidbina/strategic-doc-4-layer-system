@@ -1,0 +1,31 @@
+# Cursor Rules
+
+## Terminal
+- No echo unless debugging
+- Use `timeout 10s` or `&` for long commands  
+- Add `|| true` to continue on errors
+- Single-line commands only
+
+## File Organization
+- Always lowercase kebab-case: `my-file.md`
+- No spaces, underscores, or capitals in filenames
+
+## Multi-line Content
+- Use heredocs with EOF for multi-line files/scripts:
+```bash
+cat > file.txt << 'EOF'
+content here
+EOF
+```
+
+## Workflow
+- Chat for summaries, not new MD files
+- NEVER create MD files unless explicitly requested
+- Ask before extensive docs
+- Commit after cleanup
+- Use Docker for E2E tests when available
+
+## Project-Specific: Strategic Documentation Template
+- Strategic documents in docs/
+- Follow hierarchical pyramid structure (00-04 layers)
+- Maintain strict separation between layers

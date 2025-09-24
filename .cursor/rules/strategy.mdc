@@ -1,0 +1,21 @@
+---
+description: Layer 2 – Strategy & KPIs
+globs: docs/02-strategy/**
+alwaysApply: false
+---
+
+# PURPOSE
+Maintain the 12‑month strategic plan and KPIs for organizational initiatives.
+
+# FORMAT
+- Markdown with quarterly sections or initiative lists
+- Each strategy doc outlines objectives and measurable targets
+
+# UPDATE PROTOCOL
+1. Open the current strategy document
+2. Propose adjustments as a diff aligned to goals
+3. Wait for confirmation: Apply change
+4. Add `> Changelog:` line describing the update
+
+# REFERENCES
+@docs/01-foundation/lean-canvas.md

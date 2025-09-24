@@ -1,0 +1,24 @@
+---
+description: Layer 0 – Ideas & Research
+globs: docs/00-ideas/**
+alwaysApply: false
+---
+
+# PURPOSE
+Track and manage ideas from exploration through validation, maintaining traceability to research and promotion to core docs.
+
+# FORMAT
+- Single list in `docs/00-ideas/index.md` with structured entries
+- Each idea has ID, status, tags, and optional canonical/evidence/related
+- Cite research via `@docs/05-research/...` paths
+- Status emoji: 🔴 Exploring, 🟠 Drafting, 🟢 Validated, 🔵 Promoted, ⚪ Merged, ⚫ Archived
+
+# UPDATE PROTOCOL
+1. Add new ideas sequentially
+2. Update status as ideas progress
+3. Mark canonical docs with 📌 when validated
+4. Archive with clear reason when closing
+5. Promotion to layers 01-04 requires 🔵 status
+
+# REFERENCES
+@docs/00-ideas/ideas-guidelines.md

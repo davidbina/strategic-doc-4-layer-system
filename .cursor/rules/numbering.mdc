@@ -1,0 +1,4 @@
+---
+description: Folder Numbering Rules
+---
+Use folder prefixes only (00–06); filenames keep natural names; references must include prefixed folders (e.g., `@docs/01-foundation/vision.md`).

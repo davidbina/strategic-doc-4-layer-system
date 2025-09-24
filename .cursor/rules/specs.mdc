@@ -1,0 +1,23 @@
+---
+description: Layer 3.5 – Specs (PRDs & Design Docs)
+globs: docs/03-specs/**
+alwaysApply: false
+---
+
+# PURPOSE
+Bridge strategy to execution with program requirements and design specs.
+
+# FORMAT
+- PRDs: Goal, KPIs, scope, requirements, milestones
+- Design briefs: Audience, principles, components, measurement
+- Link to parent OKRs/roadmaps in 03-execution
+- Consistent headers and changelog
+
+# UPDATE PROTOCOL
+1. Open the relevant spec
+2. Propose updates as a diff aligned with roadmap
+3. Wait: Apply change
+4. Update changelog with date and changes
+
+# REFERENCES
+@docs/03-execution/

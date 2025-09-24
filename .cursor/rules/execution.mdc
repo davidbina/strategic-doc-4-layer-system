@@ -1,0 +1,23 @@
+---
+description: Layer 3 – OKRs & Roadmaps
+globs: docs/03-execution/**
+alwaysApply: false
+---
+
+# PURPOSE
+Maintain Execution docs (OKRs, roadmaps, experiment logs) for organizational programs.
+
+# FORMAT
+- Markdown, max ~90‑char lines
+- OKR blocks: Objective · Key Results (3‑5) · Owner · Due
+- Roadmaps: quarterly milestones, deliverables, dependencies
+- Experiments: hypothesis, setup, metrics, results
+
+# UPDATE PROTOCOL
+1. Load current doc
+2. Propose semantic diff first
+3. Wait for: Apply change
+4. Append a `## Changelog` section
+
+# REFERENCES
+@docs/01-foundation/lean-canvas.md

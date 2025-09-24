@@ -1,0 +1,21 @@
+---
+description: Layer 4 – Playbooks & Templates
+globs: docs/04-playbooks/**
+alwaysApply: false
+---
+
+# PURPOSE
+Maintain operational playbooks and templates for organizational programs.
+
+# FORMAT
+- Markdown with step-by-step sections, checklists, or SOPs
+- Clear headings and bullets/tables where needed
+
+# UPDATE PROTOCOL
+1. Open the playbook
+2. Suggest updates as a diff; ensure policy consistency
+3. Wait: Apply change
+4. Add a `> Changelog:` line
+
+# REFERENCES
+@docs/01-foundation/vision.md

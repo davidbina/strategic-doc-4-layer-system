@@ -1,0 +1,24 @@
+---
+description: Research Library Rules
+globs: docs/05-research/**
+alwaysApply: false
+---
+
+# PURPOSE
+Store and curate research, evidence, and analysis supporting strategic initiatives.
+
+# FORMAT
+- Markdown; begin with H1 title, date line, and owner
+- End every file with a **Changelog** section
+- Optional front-matter `tags: [..]` for discovery
+
+# USAGE
+- Cite research via `@docs/05-research/<file>.md`
+- Do not edit Layers 01–04 from here
+
+# UPDATE PROTOCOL
+1. New research: include metadata + Changelog
+2. Major revision: propose diff, wait for Apply change, then update Changelog
+
+# REFERENCES
+(none)

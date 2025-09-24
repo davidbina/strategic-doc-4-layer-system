@@ -1,0 +1,21 @@
+---
+description: Layer 1 – Vision & Foundation
+globs: docs/01-foundation/**
+alwaysApply: false
+---
+
+# PURPOSE
+Document and maintain foundational philosophy and strategy (Vision, Mission, Lean Canvas).
+
+# FORMAT
+- Markdown with clear sections for vision/mission and Lean Canvas fields
+- Succinct writing; bullets for canvas, short paragraphs for vision/mission
+
+# UPDATE PROTOCOL
+1. Open the relevant foundation doc
+2. Propose high-level changes as a semantic diff
+3. Wait for exact confirmation phrase: Apply change
+4. Append a `> Changelog:` line describing the change
+
+# REFERENCES
+@docs/01-foundation/lean-canvas.md

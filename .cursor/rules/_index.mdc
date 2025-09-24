@@ -1,0 +1,9 @@
+---
+description: Strategic Documentation | Global Doc Style
+alwaysApply: true
+---
+* Tone: concise, active voice.
+* Title each doc with `H1`, date line, and owner.
+* Use American English.
+* Cite sources inline using Markdown links.
+* Filenames: use lowercase-with-hyphens (e.g. `lean-canvas.md`).
